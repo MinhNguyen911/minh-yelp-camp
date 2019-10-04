@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Campground = require("../models/campground");
+const Comment = require("../models/comment");
 const middleware = require("../middleware");
 // INDEX
 router.get("/",async (req,res)=>{
