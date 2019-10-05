@@ -18,6 +18,7 @@ const commentRoutes 		= require("./routes/comments"),
 mongoose.set('useUnifiedTopology', true);
 mongoose.set('useFindAndModify', false);
 
+const url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp";
 mongoose.connect(process.env.DATABASEURL,{ useNewUrlParser: true });
 
 app.use(bodyParser.urlencoded({extended: true}));
