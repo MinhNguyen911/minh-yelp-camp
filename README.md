@@ -3,7 +3,7 @@ Deployed on Heroku:
 https://minh-yelp-camp.herokuapp.com/
 
 My very first web application: A gallery of campground sites.
-- Built using express.js
+- Built using express.js.
 - Followed RESTful Routing.
 
 - Styling using Bootstrap 4.
